@@ -5,6 +5,8 @@ Automatically update the MS Edge WebDriver if necessary before running any autom
 This powershell code automatically checks whether the installed version of MS Edge is the same as the last time it updated the driver.
 If not, it will update to the corresponding driver version.
 
+It uses the same link format for each update provided by Microsoft here: https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
+
 Replace `C:\selenium` in the first line with the path to the folder where you need the driver
 
 
