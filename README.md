@@ -37,4 +37,4 @@ Simply add a command at the beginning of your Python scripts (or other) to call 
 
 ----------
 
-*TLDR: **The first time you run this, it will output an error because the `edgeversion.txt` file needs to be created. This file will be used to determine for which version of Edge the driver was last updated. It checks whether the version indicated in this text file is the same as the actual installed version of MS Edge, to determine whether it needs to update again or not. Therefore, the first time you run it, it will update anyway because it will not know what is the actual version of the driver.***
+**The first time you run this, it will output an error because the `edgeversion.txt` file needs to be created. This file will be used to determine for which version of Edge the driver was last updated. It checks whether the version indicated in this text file is the same as the actual installed version of MS Edge, to determine whether it needs to update again or not. Therefore, the first time you run it, it will update anyway because it will not know what is the actual version of the driver.***
